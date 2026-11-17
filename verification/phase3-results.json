@@ -1,0 +1,428 @@
+{
+  "fingerprint": "d5601eda09a3eb5e",
+  "comparison": {
+    "Ordinary": {
+      "arrived": 40,
+      "completed": 40,
+      "unfinished": 0,
+      "not_arrived": 0,
+      "waiting": 0,
+      "in_service": 0,
+      "preparing": 0,
+      "total_queue_wait": 934.7590010396142,
+      "average_completed_wait": 23.368975025990355,
+      "p90_completed_wait": 35.88078462889062,
+      "longest_current_wait": null,
+      "average_completed_visit": 34.539736906849654,
+      "queue_lengths": [
+        [
+          "DOCUMENT_VERIFICATION",
+          0
+        ],
+        [
+          "PHOTO_CAPTURE",
+          0
+        ],
+        [
+          "FEE_PAYMENT",
+          0
+        ],
+        [
+          "FINAL_ENROLLMENT",
+          0
+        ]
+      ],
+      "counter_busy_time": [
+        [
+          "DOCUMENT_VERIFICATION-1",
+          67.74797955176032
+        ],
+        [
+          "DOCUMENT_VERIFICATION-2",
+          70.620278723974
+        ],
+        [
+          "PHOTO_CAPTURE-1",
+          76.14285283536466
+        ],
+        [
+          "FEE_PAYMENT-1",
+          58.832712173503005
+        ],
+        [
+          "FEE_PAYMENT-2",
+          60.39471575588733
+        ],
+        [
+          "FINAL_ENROLLMENT-1",
+          61.21341795037205
+        ]
+      ],
+      "counter_utilization": [
+        [
+          "DOCUMENT_VERIFICATION-1",
+          0.7834482066445135
+        ],
+        [
+          "DOCUMENT_VERIFICATION-2",
+          0.816663922453397
+        ],
+        [
+          "PHOTO_CAPTURE-1",
+          0.8805278311966065
+        ],
+        [
+          "FEE_PAYMENT-1",
+          0.6803506635817619
+        ],
+        [
+          "FEE_PAYMENT-2",
+          0.6984139167368814
+        ],
+        [
+          "FINAL_ENROLLMENT-1",
+          0.7078815166607275
+        ]
+      ],
+      "max_completed_wait": 38.5069610529897,
+      "makespan": 86.47410125797977,
+      "window": 86.47410125797977,
+      "status": "Completed",
+      "unfinished_wait": 0
+    },
+    "QueuePact": {
+      "arrived": 40,
+      "completed": 40,
+      "unfinished": 0,
+      "not_arrived": 0,
+      "waiting": 0,
+      "in_service": 0,
+      "preparing": 0,
+      "total_queue_wait": 1102.0099133826698,
+      "average_completed_wait": 27.550247834566743,
+      "p90_completed_wait": 39.61448942972995,
+      "longest_current_wait": null,
+      "average_completed_visit": 38.72100971542604,
+      "queue_lengths": [
+        [
+          "DOCUMENT_VERIFICATION",
+          0
+        ],
+        [
+          "PHOTO_CAPTURE",
+          0
+        ],
+        [
+          "FEE_PAYMENT",
+          0
+        ],
+        [
+          "FINAL_ENROLLMENT",
+          0
+        ]
+      ],
+      "counter_busy_time": [
+        [
+          "DOCUMENT_VERIFICATION-1",
+          72.56537362723317
+        ],
+        [
+          "DOCUMENT_VERIFICATION-2",
+          65.80288464850116
+        ],
+        [
+          "PHOTO_CAPTURE-1",
+          76.14285283536466
+        ],
+        [
+          "FEE_PAYMENT-1",
+          66.23702474903271
+        ],
+        [
+          "FEE_PAYMENT-2",
+          52.9904031803576
+        ],
+        [
+          "FINAL_ENROLLMENT-1",
+          61.21341795037205
+        ]
+      ],
+      "counter_utilization": [
+        [
+          "DOCUMENT_VERIFICATION-1",
+          0.831945761548707
+        ],
+        [
+          "DOCUMENT_VERIFICATION-2",
+          0.7544153395009036
+        ],
+        [
+          "PHOTO_CAPTURE-1",
+          0.872960759687112
+        ],
+        [
+          "FEE_PAYMENT-1",
+          0.7593926585513219
+        ],
+        [
+          "FEE_PAYMENT-2",
+          0.6075231081303336
+        ],
+        [
+          "FINAL_ENROLLMENT-1",
+          0.7017981313694963
+        ]
+      ],
+      "max_completed_wait": 40.91839126842057,
+      "makespan": 87.22368329895598,
+      "window": 87.22368329895598,
+      "status": "Completed",
+      "unfinished_wait": 0
+    }
+  },
+  "findings": [
+    "Observed: QueuePact completed-visit average wait: 4.18 min higher.",
+    "Observed: QueuePact completed visits: 0.00 visits difference.",
+    "Observed: QueuePact accumulated queue wait across all arrived students: 167.25 min higher.",
+    "Observed: Ordinary: 0 students completed photo before verification.",
+    "Observed: QueuePact: 22 students completed photo before verification.",
+    "Possible explanation: choosing a short next activity can shift demand into later queues. These observations do not establish causation or an overall winner."
+  ],
+  "staff": [
+    {
+      "placement": null,
+      "completed": 25,
+      "unfinished": 15,
+      "total_wait": 844.6464915143373,
+      "average_wait": 16.499565011143417
+    },
+    {
+      "placement": "DOCUMENT_VERIFICATION",
+      "completed": 26,
+      "unfinished": 14,
+      "total_wait": 787.4457435083006,
+      "average_wait": 15.927574309905102
+    },
+    {
+      "placement": "PHOTO_CAPTURE",
+      "completed": 29,
+      "unfinished": 11,
+      "total_wait": 702.8997285429396,
+      "average_wait": 14.332396282644233
+    },
+    {
+      "placement": "FEE_PAYMENT",
+      "completed": 25,
+      "unfinished": 15,
+      "total_wait": 839.6210493336284,
+      "average_wait": 16.398454771947144
+    },
+    {
+      "placement": "FINAL_ENROLLMENT",
+      "completed": 25,
+      "unfinished": 15,
+      "total_wait": 835.0938754224462,
+      "average_wait": 16.19531247365169
+    }
+  ],
+  "selected_staff": "PHOTO_CAPTURE",
+  "readiness": {
+    "Early screening": {
+      "metrics": {
+        "arrived": 40,
+        "completed": 40,
+        "unfinished": 0,
+        "not_arrived": 0,
+        "waiting": 0,
+        "in_service": 0,
+        "preparing": 0,
+        "total_queue_wait": 932.5819176995634,
+        "average_completed_wait": 23.314547942489085,
+        "p90_completed_wait": 35.74392903561639,
+        "longest_current_wait": null,
+        "average_completed_visit": 34.98530982334838,
+        "queue_lengths": [
+          [
+            "DOCUMENT_VERIFICATION",
+            0
+          ],
+          [
+            "PHOTO_CAPTURE",
+            0
+          ],
+          [
+            "FEE_PAYMENT",
+            0
+          ],
+          [
+            "FINAL_ENROLLMENT",
+            0
+          ]
+        ],
+        "counter_busy_time": [
+          [
+            "DOCUMENT_VERIFICATION-1",
+            68.02360591784398
+          ],
+          [
+            "DOCUMENT_VERIFICATION-2",
+            70.34465235789034
+          ],
+          [
+            "PHOTO_CAPTURE-1",
+            76.14285283536466
+          ],
+          [
+            "FEE_PAYMENT-1",
+            60.710938090622676
+          ],
+          [
+            "FEE_PAYMENT-2",
+            58.516489838767676
+          ],
+          [
+            "FINAL_ENROLLMENT-1",
+            61.21341795037205
+          ]
+        ],
+        "counter_utilization": [
+          [
+            "DOCUMENT_VERIFICATION-1",
+            0.7821133525263406
+          ],
+          [
+            "DOCUMENT_VERIFICATION-2",
+            0.8087999914967365
+          ],
+          [
+            "PHOTO_CAPTURE-1",
+            0.8754658195261161
+          ],
+          [
+            "FEE_PAYMENT-1",
+            0.6980346702352676
+          ],
+          [
+            "FEE_PAYMENT-2",
+            0.6728036161615278
+          ],
+          [
+            "FINAL_ENROLLMENT-1",
+            0.7038120206474199
+          ]
+        ],
+        "max_completed_wait": 38.64181333937202,
+        "makespan": 86.97410125797977,
+        "window": 86.97410125797977,
+        "status": "Completed",
+        "unfinished_wait": 0
+      },
+      "overhead": {
+        "screening_workers": 1,
+        "screening_time": 19.999999999999996,
+        "failed_check_time": 0.0,
+        "preparation_time": 51.87851824351057,
+        "screening_waiting": 0
+      }
+    },
+    "Late discovery": {
+      "metrics": {
+        "arrived": 40,
+        "completed": 40,
+        "unfinished": 0,
+        "not_arrived": 0,
+        "waiting": 0,
+        "in_service": 0,
+        "preparing": 0,
+        "total_queue_wait": 912.4988785018456,
+        "average_completed_wait": 22.81247196254614,
+        "p90_completed_wait": 37.543670041449964,
+        "longest_current_wait": null,
+        "average_completed_visit": 34.17073384340544,
+        "queue_lengths": [
+          [
+            "DOCUMENT_VERIFICATION",
+            0
+          ],
+          [
+            "PHOTO_CAPTURE",
+            0
+          ],
+          [
+            "FEE_PAYMENT",
+            0
+          ],
+          [
+            "FINAL_ENROLLMENT",
+            0
+          ]
+        ],
+        "counter_busy_time": [
+          [
+            "DOCUMENT_VERIFICATION-1",
+            75.67542874367469
+          ],
+          [
+            "DOCUMENT_VERIFICATION-2",
+            70.19282953205965
+          ],
+          [
+            "PHOTO_CAPTURE-1",
+            76.14285283536465
+          ],
+          [
+            "FEE_PAYMENT-1",
+            62.73156372462199
+          ],
+          [
+            "FEE_PAYMENT-2",
+            56.49586420476834
+          ],
+          [
+            "FINAL_ENROLLMENT-1",
+            61.21341795037205
+          ]
+        ],
+        "counter_utilization": [
+          [
+            "DOCUMENT_VERIFICATION-1",
+            0.875122466065427
+          ],
+          [
+            "DOCUMENT_VERIFICATION-2",
+            0.8117208333007372
+          ],
+          [
+            "PHOTO_CAPTURE-1",
+            0.8805278311966065
+          ],
+          [
+            "FEE_PAYMENT-1",
+            0.7254375912791945
+          ],
+          [
+            "FEE_PAYMENT-2",
+            0.653326989039449
+          ],
+          [
+            "FINAL_ENROLLMENT-1",
+            0.7078815166607276
+          ]
+        ],
+        "max_completed_wait": 46.04908552005212,
+        "makespan": 86.47410125797975,
+        "window": 86.47410125797975,
+        "status": "Completed",
+        "unfinished_wait": 0
+      },
+      "overhead": {
+        "screening_workers": 0,
+        "screening_time": 0.0,
+        "failed_check_time": 7.5,
+        "preparation_time": 51.87851824351057,
+        "screening_waiting": 0
+      }
+    }
+  },
+  "unchanged_continuations": "exact normalized events and metrics match"
+}

@@ -1,0 +1,9 @@
+{
+  "checks": [
+    "Live v2 selection, completion, pause/resume/reset; saved JSON verifies explicit version 2; report labels experimental version",
+    "Saved v2 opened as isolated working experiment and completed with v2 identity",
+    "QueuePact v1 vs v2 completed in two-panel layout; no horizontal overflow",
+    "Ordinary vs v2 completed in two-panel layout; no horizontal overflow"
+  ],
+  "errors": []
+}

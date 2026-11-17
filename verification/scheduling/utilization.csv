@@ -1,0 +1,127 @@
+preset,policy,desk,utilization
+Normal Admission Morning,Ordinary,DOCUMENT_VERIFICATION-1,0.7834482066445135
+Normal Admission Morning,Ordinary,DOCUMENT_VERIFICATION-2,0.816663922453397
+Normal Admission Morning,Ordinary,PHOTO_CAPTURE-1,0.8805278311966065
+Normal Admission Morning,Ordinary,FEE_PAYMENT-1,0.6803506635817619
+Normal Admission Morning,Ordinary,FEE_PAYMENT-2,0.6984139167368814
+Normal Admission Morning,Ordinary,FINAL_ENROLLMENT-1,0.7078815166607275
+Normal Admission Morning,v1,DOCUMENT_VERIFICATION-1,0.831945761548707
+Normal Admission Morning,v1,DOCUMENT_VERIFICATION-2,0.7544153395009036
+Normal Admission Morning,v1,PHOTO_CAPTURE-1,0.872960759687112
+Normal Admission Morning,v1,FEE_PAYMENT-1,0.7593926585513219
+Normal Admission Morning,v1,FEE_PAYMENT-2,0.6075231081303336
+Normal Admission Morning,v1,FINAL_ENROLLMENT-1,0.7017981313694963
+Normal Admission Morning,v1-no-fairness,DOCUMENT_VERIFICATION-1,0.831945761548707
+Normal Admission Morning,v1-no-fairness,DOCUMENT_VERIFICATION-2,0.7544153395009036
+Normal Admission Morning,v1-no-fairness,PHOTO_CAPTURE-1,0.872960759687112
+Normal Admission Morning,v1-no-fairness,FEE_PAYMENT-1,0.7593926585513219
+Normal Admission Morning,v1-no-fairness,FEE_PAYMENT-2,0.6075231081303336
+Normal Admission Morning,v1-no-fairness,FINAL_ENROLLMENT-1,0.7017981313694963
+Normal Admission Morning,v1-fixed-routing,DOCUMENT_VERIFICATION-1,0.7834482066445135
+Normal Admission Morning,v1-fixed-routing,DOCUMENT_VERIFICATION-2,0.816663922453397
+Normal Admission Morning,v1-fixed-routing,PHOTO_CAPTURE-1,0.8805278311966065
+Normal Admission Morning,v1-fixed-routing,FEE_PAYMENT-1,0.6803506635817619
+Normal Admission Morning,v1-fixed-routing,FEE_PAYMENT-2,0.6984139167368814
+Normal Admission Morning,v1-fixed-routing,FINAL_ENROLLMENT-1,0.7078815166607275
+Normal Admission Morning,v1-prep-first,DOCUMENT_VERIFICATION-1,0.831945761548707
+Normal Admission Morning,v1-prep-first,DOCUMENT_VERIFICATION-2,0.7544153395009036
+Normal Admission Morning,v1-prep-first,PHOTO_CAPTURE-1,0.872960759687112
+Normal Admission Morning,v1-prep-first,FEE_PAYMENT-1,0.7593926585513219
+Normal Admission Morning,v1-prep-first,FEE_PAYMENT-2,0.6075231081303336
+Normal Admission Morning,v1-prep-first,FINAL_ENROLLMENT-1,0.7017981313694963
+Normal Admission Morning,v1-verification-first,DOCUMENT_VERIFICATION-1,0.857820061996431
+Normal Admission Morning,v1-verification-first,DOCUMENT_VERIFICATION-2,0.8364563850099643
+Normal Admission Morning,v1-verification-first,PHOTO_CAPTURE-1,0.9323456389091261
+Normal Admission Morning,v1-verification-first,FEE_PAYMENT-1,0.7093323011707031
+Normal Admission Morning,v1-verification-first,FEE_PAYMENT-2,0.750570609331886
+Normal Admission Morning,v1-verification-first,FINAL_ENROLLMENT-1,0.7495393348624807
+Normal Admission Morning,v1-mean-estimates,DOCUMENT_VERIFICATION-1,0.8005905280196628
+Normal Admission Morning,v1-mean-estimates,DOCUMENT_VERIFICATION-2,0.7827162669848002
+Normal Admission Morning,v1-mean-estimates,PHOTO_CAPTURE-1,0.8712800015522052
+Normal Admission Morning,v1-mean-estimates,FEE_PAYMENT-1,0.7172709891230423
+Normal Admission Morning,v1-mean-estimates,FEE_PAYMENT-2,0.6470129813763813
+Normal Admission Morning,v1-mean-estimates,FINAL_ENROLLMENT-1,0.7004469218159483
+Arrival Rush,Ordinary,DOCUMENT_VERIFICATION-1,0.8515941639595093
+Arrival Rush,Ordinary,DOCUMENT_VERIFICATION-2,0.7938671310651851
+Arrival Rush,Ordinary,PHOTO_CAPTURE-1,0.9055629117936899
+Arrival Rush,Ordinary,FEE_PAYMENT-1,0.7005862377842744
+Arrival Rush,Ordinary,FEE_PAYMENT-2,0.6678886600493837
+Arrival Rush,Ordinary,FINAL_ENROLLMENT-1,0.6920138050090935
+Arrival Rush,v1,DOCUMENT_VERIFICATION-1,0.7872743666826489
+Arrival Rush,v1,DOCUMENT_VERIFICATION-2,0.7977567229323081
+Arrival Rush,v1,PHOTO_CAPTURE-1,0.8723057619983122
+Arrival Rush,v1,FEE_PAYMENT-1,0.7332745046287154
+Arrival Rush,v1,FEE_PAYMENT-2,0.5849426208561153
+Arrival Rush,v1,FINAL_ENROLLMENT-1,0.66659932913566
+Arrival Rush,v1-no-fairness,DOCUMENT_VERIFICATION-1,0.7872743666826489
+Arrival Rush,v1-no-fairness,DOCUMENT_VERIFICATION-2,0.7977567229323081
+Arrival Rush,v1-no-fairness,PHOTO_CAPTURE-1,0.8723057619983122
+Arrival Rush,v1-no-fairness,FEE_PAYMENT-1,0.7332745046287154
+Arrival Rush,v1-no-fairness,FEE_PAYMENT-2,0.5849426208561153
+Arrival Rush,v1-no-fairness,FINAL_ENROLLMENT-1,0.66659932913566
+Arrival Rush,v1-fixed-routing,DOCUMENT_VERIFICATION-1,0.8515941639595093
+Arrival Rush,v1-fixed-routing,DOCUMENT_VERIFICATION-2,0.7938671310651851
+Arrival Rush,v1-fixed-routing,PHOTO_CAPTURE-1,0.9055629117936899
+Arrival Rush,v1-fixed-routing,FEE_PAYMENT-1,0.7005862377842744
+Arrival Rush,v1-fixed-routing,FEE_PAYMENT-2,0.6678886600493837
+Arrival Rush,v1-fixed-routing,FINAL_ENROLLMENT-1,0.6920138050090935
+Arrival Rush,v1-prep-first,DOCUMENT_VERIFICATION-1,0.7872743666826489
+Arrival Rush,v1-prep-first,DOCUMENT_VERIFICATION-2,0.7977567229323081
+Arrival Rush,v1-prep-first,PHOTO_CAPTURE-1,0.8723057619983122
+Arrival Rush,v1-prep-first,FEE_PAYMENT-1,0.7332745046287154
+Arrival Rush,v1-prep-first,FEE_PAYMENT-2,0.5849426208561153
+Arrival Rush,v1-prep-first,FINAL_ENROLLMENT-1,0.66659932913566
+Arrival Rush,v1-verification-first,DOCUMENT_VERIFICATION-1,0.8713522019546335
+Arrival Rush,v1-verification-first,DOCUMENT_VERIFICATION-2,0.8497186478196748
+Arrival Rush,v1-verification-first,PHOTO_CAPTURE-1,0.9471738623310939
+Arrival Rush,v1-verification-first,FEE_PAYMENT-1,0.745564250796578
+Arrival Rush,v1-verification-first,FEE_PAYMENT-2,0.6857925744480036
+Arrival Rush,v1-verification-first,FINAL_ENROLLMENT-1,0.7238120951515175
+Arrival Rush,v1-mean-estimates,DOCUMENT_VERIFICATION-1,0.8114398337620872
+Arrival Rush,v1-mean-estimates,DOCUMENT_VERIFICATION-2,0.7866320601815245
+Arrival Rush,v1-mean-estimates,PHOTO_CAPTURE-1,0.8794826362132789
+Arrival Rush,v1-mean-estimates,FEE_PAYMENT-1,0.6883756233129205
+Arrival Rush,v1-mean-estimates,FEE_PAYMENT-2,0.640687101169155
+Arrival Rush,v1-mean-estimates,FINAL_ENROLLMENT-1,0.6720837587306547
+Desk Disruption and Recovery,Ordinary,DOCUMENT_VERIFICATION-1,0.6964128346099925
+Desk Disruption and Recovery,Ordinary,DOCUMENT_VERIFICATION-2,0.868311891769937
+Desk Disruption and Recovery,Ordinary,PHOTO_CAPTURE-1,0.8610544503001616
+Desk Disruption and Recovery,Ordinary,FEE_PAYMENT-1,0.7163108432471541
+Desk Disruption and Recovery,Ordinary,FEE_PAYMENT-2,0.6319615630733263
+Desk Disruption and Recovery,Ordinary,FINAL_ENROLLMENT-1,0.6922263085967708
+Desk Disruption and Recovery,v1,DOCUMENT_VERIFICATION-1,0.6751650682288217
+Desk Disruption and Recovery,v1,DOCUMENT_VERIFICATION-2,0.8243868956750574
+Desk Disruption and Recovery,v1,PHOTO_CAPTURE-1,0.8251904441767405
+Desk Disruption and Recovery,v1,FEE_PAYMENT-1,0.7327278134883959
+Desk Disruption and Recovery,v1,FEE_PAYMENT-2,0.5593873430559972
+Desk Disruption and Recovery,v1,FINAL_ENROLLMENT-1,0.6633942079535959
+Desk Disruption and Recovery,v1-no-fairness,DOCUMENT_VERIFICATION-1,0.6751650682288217
+Desk Disruption and Recovery,v1-no-fairness,DOCUMENT_VERIFICATION-2,0.8243868956750574
+Desk Disruption and Recovery,v1-no-fairness,PHOTO_CAPTURE-1,0.8251904441767405
+Desk Disruption and Recovery,v1-no-fairness,FEE_PAYMENT-1,0.7327278134883959
+Desk Disruption and Recovery,v1-no-fairness,FEE_PAYMENT-2,0.5593873430559972
+Desk Disruption and Recovery,v1-no-fairness,FINAL_ENROLLMENT-1,0.6633942079535959
+Desk Disruption and Recovery,v1-fixed-routing,DOCUMENT_VERIFICATION-1,0.6964128346099925
+Desk Disruption and Recovery,v1-fixed-routing,DOCUMENT_VERIFICATION-2,0.868311891769937
+Desk Disruption and Recovery,v1-fixed-routing,PHOTO_CAPTURE-1,0.8610544503001616
+Desk Disruption and Recovery,v1-fixed-routing,FEE_PAYMENT-1,0.7163108432471541
+Desk Disruption and Recovery,v1-fixed-routing,FEE_PAYMENT-2,0.6319615630733263
+Desk Disruption and Recovery,v1-fixed-routing,FINAL_ENROLLMENT-1,0.6922263085967708
+Desk Disruption and Recovery,v1-prep-first,DOCUMENT_VERIFICATION-1,0.6751650682288217
+Desk Disruption and Recovery,v1-prep-first,DOCUMENT_VERIFICATION-2,0.8243868956750574
+Desk Disruption and Recovery,v1-prep-first,PHOTO_CAPTURE-1,0.8251904441767405
+Desk Disruption and Recovery,v1-prep-first,FEE_PAYMENT-1,0.7327278134883959
+Desk Disruption and Recovery,v1-prep-first,FEE_PAYMENT-2,0.5593873430559972
+Desk Disruption and Recovery,v1-prep-first,FINAL_ENROLLMENT-1,0.6633942079535959
+Desk Disruption and Recovery,v1-verification-first,DOCUMENT_VERIFICATION-1,0.7328537776752745
+Desk Disruption and Recovery,v1-verification-first,DOCUMENT_VERIFICATION-2,0.8551664148442688
+Desk Disruption and Recovery,v1-verification-first,PHOTO_CAPTURE-1,0.8738737433382017
+Desk Disruption and Recovery,v1-verification-first,FEE_PAYMENT-1,0.7168043472688115
+Desk Disruption and Recovery,v1-verification-first,FEE_PAYMENT-2,0.6515410045729427
+Desk Disruption and Recovery,v1-verification-first,FINAL_ENROLLMENT-1,0.7025321050483765
+Desk Disruption and Recovery,v1-mean-estimates,DOCUMENT_VERIFICATION-1,0.6982692670123781
+Desk Disruption and Recovery,v1-mean-estimates,DOCUMENT_VERIFICATION-2,0.7867517432922497
+Desk Disruption and Recovery,v1-mean-estimates,PHOTO_CAPTURE-1,0.8171941863987428
+Desk Disruption and Recovery,v1-mean-estimates,FEE_PAYMENT-1,0.6778870064846091
+Desk Disruption and Recovery,v1-mean-estimates,FEE_PAYMENT-2,0.6017072999414887
+Desk Disruption and Recovery,v1-mean-estimates,FINAL_ENROLLMENT-1,0.6569657875414816

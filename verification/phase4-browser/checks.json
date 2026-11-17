@@ -1,0 +1,15 @@
+{
+  "checks": [
+    "Live start/pause, passport, reduced motion, presentation enter/exit; 1366 no overflow",
+    "Browser JSON and CSV downloads inspected; exported observation reproduces",
+    "All three presets loaded/started; replace confirmation and repeated Reset Demo exercised",
+    "Fresh offline Lab, local Plotly loaded, comparison completed honestly; both sizes no overflow",
+    "Staff placement, candidate branch, unchanged reconstruction and readiness UI completed",
+    "JSON imported via browser upload as a new saved copy",
+    "Server restarted; saved browser record reloaded and fresh working copy isolated from second session",
+    "All report types printed through Chromium to A4 PDFs; navigation removed and every page contains text"
+  ],
+  "console_errors": [],
+  "blocked_external_requests": [],
+  "request_count": 141
+}

@@ -1,0 +1,4 @@
+[
+  {"time": 5, "counter_id": "PHOTO_CAPTURE-1", "kind": "close"},
+  {"time": 15, "counter_id": "PHOTO_CAPTURE-1", "kind": "restore"}
+]

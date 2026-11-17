@@ -1,0 +1,178 @@
+{
+  "Ordinary": {
+    "status": "Completed",
+    "time": 93.37705525925675,
+    "metrics": {
+      "arrived": 40,
+      "completed": 40,
+      "unfinished": 0,
+      "not_arrived": 0,
+      "waiting": 0,
+      "in_service": 0,
+      "preparing": 0,
+      "total_queue_wait": 1197.5294776681617,
+      "average_completed_wait": 29.93823694170404,
+      "p90_completed_wait": 42.78373863016763,
+      "longest_current_wait": null,
+      "average_completed_visit": 41.10899882256334,
+      "queue_lengths": [
+        [
+          "DOCUMENT_VERIFICATION",
+          0
+        ],
+        [
+          "PHOTO_CAPTURE",
+          0
+        ],
+        [
+          "FEE_PAYMENT",
+          0
+        ],
+        [
+          "FINAL_ENROLLMENT",
+          0
+        ]
+      ],
+      "counter_busy_time": [
+        [
+          "DOCUMENT_VERIFICATION-1",
+          67.74797955176032
+        ],
+        [
+          "DOCUMENT_VERIFICATION-2",
+          70.620278723974
+        ],
+        [
+          "PHOTO_CAPTURE-1",
+          76.14285283536466
+        ],
+        [
+          "FEE_PAYMENT-1",
+          58.832712173503005
+        ],
+        [
+          "FEE_PAYMENT-2",
+          60.39471575588733
+        ],
+        [
+          "FINAL_ENROLLMENT-1",
+          61.21341795037205
+        ]
+      ],
+      "counter_utilization": [
+        [
+          "DOCUMENT_VERIFICATION-1",
+          0.725531334905148
+        ],
+        [
+          "DOCUMENT_VERIFICATION-2",
+          0.7562915592904521
+        ],
+        [
+          "PHOTO_CAPTURE-1",
+          0.8154342908325586
+        ],
+        [
+          "FEE_PAYMENT-1",
+          0.6300553386499168
+        ],
+        [
+          "FEE_PAYMENT-2",
+          0.6467832551391175
+        ],
+        [
+          "FINAL_ENROLLMENT-1",
+          0.6555509571426946
+        ]
+      ]
+    }
+  },
+  "QueuePact": {
+    "status": "Completed",
+    "time": 91.73273940030911,
+    "metrics": {
+      "arrived": 40,
+      "completed": 40,
+      "unfinished": 0,
+      "not_arrived": 0,
+      "waiting": 0,
+      "in_service": 0,
+      "preparing": 0,
+      "total_queue_wait": 1258.6365919574143,
+      "average_completed_wait": 31.46591479893536,
+      "p90_completed_wait": 48.810448478290304,
+      "longest_current_wait": null,
+      "average_completed_visit": 42.63667667979466,
+      "queue_lengths": [
+        [
+          "DOCUMENT_VERIFICATION",
+          0
+        ],
+        [
+          "PHOTO_CAPTURE",
+          0
+        ],
+        [
+          "FEE_PAYMENT",
+          0
+        ],
+        [
+          "FINAL_ENROLLMENT",
+          0
+        ]
+      ],
+      "counter_busy_time": [
+        [
+          "DOCUMENT_VERIFICATION-1",
+          69.24886626933207
+        ],
+        [
+          "DOCUMENT_VERIFICATION-2",
+          69.11939200640224
+        ],
+        [
+          "PHOTO_CAPTURE-1",
+          76.14285283536468
+        ],
+        [
+          "FEE_PAYMENT-1",
+          64.31898068369782
+        ],
+        [
+          "FEE_PAYMENT-2",
+          54.908447245692486
+        ],
+        [
+          "FINAL_ENROLLMENT-1",
+          61.21341795037204
+        ]
+      ],
+      "counter_utilization": [
+        [
+          "DOCUMENT_VERIFICATION-1",
+          0.7548980519064137
+        ],
+        [
+          "DOCUMENT_VERIFICATION-2",
+          0.7534866227506264
+        ],
+        [
+          "PHOTO_CAPTURE-1",
+          0.8300510083219873
+        ],
+        [
+          "FEE_PAYMENT-1",
+          0.7011562186431454
+        ],
+        [
+          "FEE_PAYMENT-2",
+          0.5985697974861466
+        ],
+        [
+          "FINAL_ENROLLMENT-1",
+          0.6673017545376582
+        ]
+      ]
+    }
+  }
+}

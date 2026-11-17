@@ -1,0 +1,85 @@
+preset,policy,service,total_wait_min
+Normal Admission Morning,Ordinary,DOCUMENT_VERIFICATION,691.9249203997408
+Normal Admission Morning,Ordinary,PHOTO_CAPTURE,207.8070962708724
+Normal Admission Morning,Ordinary,FEE_PAYMENT,13.65554262822744
+Normal Admission Morning,Ordinary,FINAL_ENROLLMENT,21.37144174077348
+Normal Admission Morning,v1,PHOTO_CAPTURE,544.7855567504222
+Normal Admission Morning,v1,DOCUMENT_VERIFICATION,439.9262641594393
+Normal Admission Morning,v1,FEE_PAYMENT,19.46806480076679
+Normal Admission Morning,v1,FINAL_ENROLLMENT,97.83002767204128
+Normal Admission Morning,v1-no-fairness,PHOTO_CAPTURE,544.7855567504222
+Normal Admission Morning,v1-no-fairness,DOCUMENT_VERIFICATION,439.9262641594393
+Normal Admission Morning,v1-no-fairness,FEE_PAYMENT,19.46806480076679
+Normal Admission Morning,v1-no-fairness,FINAL_ENROLLMENT,97.83002767204128
+Normal Admission Morning,v1-fixed-routing,DOCUMENT_VERIFICATION,691.9249203997408
+Normal Admission Morning,v1-fixed-routing,PHOTO_CAPTURE,207.8070962708724
+Normal Admission Morning,v1-fixed-routing,FEE_PAYMENT,13.65554262822744
+Normal Admission Morning,v1-fixed-routing,FINAL_ENROLLMENT,21.37144174077348
+Normal Admission Morning,v1-prep-first,PHOTO_CAPTURE,544.7855567504222
+Normal Admission Morning,v1-prep-first,DOCUMENT_VERIFICATION,439.9262641594393
+Normal Admission Morning,v1-prep-first,FEE_PAYMENT,19.46806480076679
+Normal Admission Morning,v1-prep-first,FINAL_ENROLLMENT,97.83002767204128
+Normal Admission Morning,v1-verification-first,DOCUMENT_VERIFICATION,681.2988388251773
+Normal Admission Morning,v1-verification-first,PHOTO_CAPTURE,144.98043693529672
+Normal Admission Morning,v1-verification-first,FEE_PAYMENT,21.521688790020548
+Normal Admission Morning,v1-verification-first,FINAL_ENROLLMENT,42.37675881651839
+Normal Admission Morning,v1-mean-estimates,PHOTO_CAPTURE,480.7196374957059
+Normal Admission Morning,v1-mean-estimates,DOCUMENT_VERIFICATION,500.4855227867315
+Normal Admission Morning,v1-mean-estimates,FEE_PAYMENT,9.420790480117342
+Normal Admission Morning,v1-mean-estimates,FINAL_ENROLLMENT,101.00783906133272
+Arrival Rush,Ordinary,DOCUMENT_VERIFICATION,1411.198264167892
+Arrival Rush,Ordinary,PHOTO_CAPTURE,323.9698541510001
+Arrival Rush,Ordinary,FEE_PAYMENT,3.4401425529201397
+Arrival Rush,Ordinary,FINAL_ENROLLMENT,15.689220065266493
+Arrival Rush,v1,PHOTO_CAPTURE,1103.0512856410166
+Arrival Rush,v1,DOCUMENT_VERIFICATION,939.8373225250807
+Arrival Rush,v1,FEE_PAYMENT,13.221582429740495
+Arrival Rush,v1,FINAL_ENROLLMENT,189.74213260952337
+Arrival Rush,v1-no-fairness,PHOTO_CAPTURE,1103.0512856410166
+Arrival Rush,v1-no-fairness,DOCUMENT_VERIFICATION,939.8373225250807
+Arrival Rush,v1-no-fairness,FEE_PAYMENT,13.221582429740495
+Arrival Rush,v1-no-fairness,FINAL_ENROLLMENT,189.74213260952337
+Arrival Rush,v1-fixed-routing,DOCUMENT_VERIFICATION,1411.198264167892
+Arrival Rush,v1-fixed-routing,PHOTO_CAPTURE,323.9698541510001
+Arrival Rush,v1-fixed-routing,FEE_PAYMENT,3.4401425529201397
+Arrival Rush,v1-fixed-routing,FINAL_ENROLLMENT,15.689220065266493
+Arrival Rush,v1-prep-first,PHOTO_CAPTURE,1103.0512856410166
+Arrival Rush,v1-prep-first,DOCUMENT_VERIFICATION,939.8373225250807
+Arrival Rush,v1-prep-first,FEE_PAYMENT,13.221582429740495
+Arrival Rush,v1-prep-first,FINAL_ENROLLMENT,189.74213260952337
+Arrival Rush,v1-verification-first,DOCUMENT_VERIFICATION,1401.734611067286
+Arrival Rush,v1-verification-first,PHOTO_CAPTURE,255.01464479023494
+Arrival Rush,v1-verification-first,FEE_PAYMENT,17.957998540774753
+Arrival Rush,v1-verification-first,FINAL_ENROLLMENT,22.818965769917547
+Arrival Rush,v1-mean-estimates,PHOTO_CAPTURE,1024.8649199256402
+Arrival Rush,v1-mean-estimates,DOCUMENT_VERIFICATION,1015.4268191355933
+Arrival Rush,v1-mean-estimates,FEE_PAYMENT,7.6783981293444
+Arrival Rush,v1-mean-estimates,FINAL_ENROLLMENT,175.01138135159363
+Desk Disruption and Recovery,Ordinary,DOCUMENT_VERIFICATION,889.2601297051125
+Desk Disruption and Recovery,Ordinary,PHOTO_CAPTURE,69.03315491111499
+Desk Disruption and Recovery,Ordinary,FEE_PAYMENT,12.130639195140745
+Desk Disruption and Recovery,Ordinary,FINAL_ENROLLMENT,22.52592084200343
+Desk Disruption and Recovery,v1,PHOTO_CAPTURE,567.6254948990783
+Desk Disruption and Recovery,v1,DOCUMENT_VERIFICATION,550.7277010948436
+Desk Disruption and Recovery,v1,FEE_PAYMENT,14.722456096336531
+Desk Disruption and Recovery,v1,FINAL_ENROLLMENT,111.76036178166557
+Desk Disruption and Recovery,v1-no-fairness,PHOTO_CAPTURE,567.6254948990783
+Desk Disruption and Recovery,v1-no-fairness,DOCUMENT_VERIFICATION,550.7277010948436
+Desk Disruption and Recovery,v1-no-fairness,FEE_PAYMENT,14.722456096336531
+Desk Disruption and Recovery,v1-no-fairness,FINAL_ENROLLMENT,111.76036178166557
+Desk Disruption and Recovery,v1-fixed-routing,DOCUMENT_VERIFICATION,889.2601297051125
+Desk Disruption and Recovery,v1-fixed-routing,PHOTO_CAPTURE,69.03315491111499
+Desk Disruption and Recovery,v1-fixed-routing,FEE_PAYMENT,12.130639195140745
+Desk Disruption and Recovery,v1-fixed-routing,FINAL_ENROLLMENT,22.52592084200343
+Desk Disruption and Recovery,v1-prep-first,PHOTO_CAPTURE,567.6254948990783
+Desk Disruption and Recovery,v1-prep-first,DOCUMENT_VERIFICATION,550.7277010948436
+Desk Disruption and Recovery,v1-prep-first,FEE_PAYMENT,14.722456096336531
+Desk Disruption and Recovery,v1-prep-first,FINAL_ENROLLMENT,111.76036178166557
+Desk Disruption and Recovery,v1-verification-first,DOCUMENT_VERIFICATION,869.0961216766116
+Desk Disruption and Recovery,v1-verification-first,PHOTO_CAPTURE,118.16486195042732
+Desk Disruption and Recovery,v1-verification-first,FEE_PAYMENT,8.132525957824207
+Desk Disruption and Recovery,v1-verification-first,FINAL_ENROLLMENT,71.3519862075869
+Desk Disruption and Recovery,v1-mean-estimates,PHOTO_CAPTURE,553.7149227378055
+Desk Disruption and Recovery,v1-mean-estimates,DOCUMENT_VERIFICATION,573.7324839699555
+Desk Disruption and Recovery,v1-mean-estimates,FEE_PAYMENT,8.124924126855083
+Desk Disruption and Recovery,v1-mean-estimates,FINAL_ENROLLMENT,104.10282611021421

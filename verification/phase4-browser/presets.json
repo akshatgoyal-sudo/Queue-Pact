@@ -1,0 +1,50 @@
+{
+  "Normal Admission Morning": [
+    {
+      "completed": 40,
+      "unfinished": 0,
+      "average_completed_wait": 23.368975025990355,
+      "p90_completed_wait": 35.88078462889062,
+      "makespan": 86.47410125797977
+    },
+    {
+      "completed": 40,
+      "unfinished": 0,
+      "average_completed_wait": 27.550247834566743,
+      "p90_completed_wait": 39.61448942972995,
+      "makespan": 87.22368329895598
+    }
+  ],
+  "Arrival Rush": [
+    {
+      "completed": 50,
+      "unfinished": 0,
+      "average_completed_wait": 35.08594961874158,
+      "p90_completed_wait": 57.74725769992972,
+      "makespan": 109.39821016129959
+    },
+    {
+      "completed": 50,
+      "unfinished": 0,
+      "average_completed_wait": 44.917046464107216,
+      "p90_completed_wait": 65.95988483517004,
+      "makespan": 113.56907870439608
+    }
+  ],
+  "Desk Disruption and Recovery": [
+    {
+      "completed": 40,
+      "unfinished": 0,
+      "average_completed_wait": 24.823746116334288,
+      "p90_completed_wait": 37.83646015078982,
+      "makespan": 88.42977677987895
+    },
+    {
+      "completed": 40,
+      "unfinished": 0,
+      "average_completed_wait": 31.120900346798102,
+      "p90_completed_wait": 49.46007553773214,
+      "makespan": 92.27306662685527
+    }
+  ]
+}

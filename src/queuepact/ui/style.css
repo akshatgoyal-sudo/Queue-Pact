@@ -1,0 +1,71 @@
+:root {font-family:Segoe UI,Arial,sans-serif;color:#17243b;background:#f3f5f9}
+body {background:#f3f5f9;font-family:Segoe UI,Arial,sans-serif}
+.nicegui-content {padding:0;gap:0}
+.qp-header {height:66px;background:#111d35;color:white;padding:10px 24px;box-shadow:none}
+.qp-logo {font-size:23px;font-weight:750;letter-spacing:-.7px}
+.qp-subtitle {font-size:12px;color:#b7c4d9}
+.qp-clock {font-size:22px;font-weight:650;font-variant-numeric:tabular-nums}
+.qp-nav {position:fixed;top:66px;bottom:0;width:76px;background:#172640;display:flex;align-items:center;flex-direction:column;gap:24px;padding-top:28px;z-index:20}
+.qp-nav a {color:#c4d0e2;font-size:11px;text-align:center;text-decoration:none;display:flex;flex-direction:column;gap:7px;margin-bottom:24px}
+.qp-nav a:hover {color:white}
+.qp-nav b {font-size:22px;font-weight:400}
+.qp-shell {margin-left:76px;width:calc(100% - 76px);max-width:1900px;padding:16px 22px 32px;gap:14px}
+.q-card {border:1px solid #e1e7ef;border-radius:14px;box-shadow:0 3px 12px #16335905}
+.qp-toolbar {position:sticky;top:66px;z-index:15;background:#f3f5f9;padding:8px 0;display:flex;align-items:center;gap:9px;width:100%}
+.qp-toolbar .q-btn {text-transform:none;border-radius:8px;font-weight:600}
+.qp-intro {margin-right:auto}
+.qp-intro strong {font-size:19px;display:block}
+.qp-intro small {color:#64748b;font-size:12px}
+.qp-metrics {display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px;width:100%}
+.qp-metric {background:white;border:1px solid #e1e7ef;border-radius:12px;padding:12px 15px}
+.qp-metric small {font-size:12px;color:#64748b;display:block}
+.qp-metric strong {font-size:25px;line-height:1.25;font-weight:650;display:block;margin-top:5px;font-variant-numeric:tabular-nums}
+.qp-live {display:grid;grid-template-columns:minmax(0,1fr) 310px;gap:14px;width:100%;scroll-margin-top:150px}
+.qp-hall-card {display:block;padding:15px;min-width:0}
+.qp-card-heading {font-size:16px;font-weight:650}
+.qp-eyebrow {font-size:10px;letter-spacing:1.4px;text-transform:uppercase;font-weight:700;color:#64748b}
+.qp-hotspot {border-radius:8px;padding:8px 11px;background:#fff8e8;color:#855815;font-size:12px;line-height:1.5;margin:8px 0 10px}
+.admission-hall {display:block;width:100%;height:auto;max-height:max(388px,calc(100vh - 380px));font-family:Segoe UI,Arial,sans-serif}
+.zone-heading {font-size:19px;font-weight:650;fill:#26354b}
+.hall-note {font-size:14px;fill:#596b83}
+.hall-small {font-size:12px;fill:#6b7c91}
+.desk-name {font-size:15px;font-weight:700;fill:#253550}
+.desk-status {font-size:12px;font-weight:600}
+.token-label {font-size:10px;font-weight:650;fill:#334155;paint-order:stroke;stroke:#fff;stroke-width:3px;stroke-linejoin:round}
+.exit-count {font-size:29px;font-weight:700;fill:#15803d}
+.student-marker {cursor:pointer;outline:none}
+.student-marker:focus circle {stroke:#0f172a;stroke-width:3px}
+.qp-legend {display:flex;gap:15px;flex-wrap:wrap;font-size:11px;color:#64748b;margin-top:9px}
+.qp-legend span:before {content:'●';color:var(--tone);margin-right:5px}
+.qp-passport {padding:0;min-width:0;overflow:hidden;align-self:start}
+.qp-passport-content {padding:16px;max-height:min(540px,calc(100vh - 345px));overflow:auto;scrollbar-width:thin}
+.qp-empty {min-height:330px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:28px;gap:12px;color:#738199}
+.qp-empty strong {font-size:18px;color:#354760}
+.qp-token {font-size:23px;font-weight:700;overflow-wrap:anywhere}
+.qp-tag {border-radius:5px;background:#eff4fc;color:#345179;font-size:11px;padding:3px 7px;display:inline-block}
+.qp-totals {display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:14px 0}
+.qp-totals div {background:#f5f7fb;border-radius:8px;padding:8px;font-size:12px}
+.qp-totals small {display:block;color:#6b7c91;font-size:10px}
+.qp-step {border-left:2px solid #dce4f0;padding:0 0 12px 12px;margin-left:4px;font-size:12px}
+.qp-step b {display:block;font-size:12px}
+.qp-step small {display:block;color:#6b7c91;font-size:10px;line-height:1.45;margin-top:2px}
+.qp-step.done {border-color:#34a76d}
+.qp-explanation {font-size:11px;line-height:1.6;padding:10px;background:#f2f5fc;border-radius:8px;margin-top:10px}
+.qp-details {width:100%;scroll-margin-top:150px}
+.qp-event {display:grid;grid-template-columns:75px 1fr;gap:10px;border-bottom:1px solid #edf0f5;padding:10px 0;font-size:12px;line-height:1.55}
+.qp-event time {color:#738199;font-variant-numeric:tabular-nums}
+.qp-feed {max-height:350px;overflow:auto}
+.qp-statusline {font-size:12px;color:#64748b;width:100%}
+.qp-dialog {width:650px;max-width:95vw;padding:24px}
+.qp-dialog .q-btn {text-transform:none}
+.qp-table {width:100%;overflow:auto}
+.qp-table .q-table td {white-space:normal;max-width:240px;font-size:12px}
+.qp-footnote {font-size:11px;color:#718099;line-height:1.6}
+@media(min-width:1700px) {.qp-live{grid-template-columns:minmax(0,1fr) 370px}.qp-passport-content{max-height:700px}.qp-shell{padding:20px 34px}.qp-metric{padding:16px 20px}}
+@media(max-width:1150px) {.qp-live{grid-template-columns:minmax(0,1fr)}.qp-passport-content{max-height:360px}.qp-empty{min-height:100px}.qp-intro small{display:none}.qp-toolbar{flex-wrap:wrap}.qp-metrics{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:700px) {.qp-nav{display:none}.qp-shell{margin-left:0;width:100%;padding:12px}.qp-header{padding:10px 14px}.qp-subtitle{display:none}.qp-clock{font-size:17px}.qp-intro{width:100%}.qp-metric strong{font-size:20px}}
+@media(prefers-reduced-motion:reduce) {*{scroll-behavior:auto!important}}
+.qp-toolbar{flex-wrap:wrap}.qp-guide{font-size:15px;line-height:1.6;background:#eef3fc;border-left:4px solid #2563eb;padding:12px;width:100%}
+.qp-present .qp-details,.qp-present .qp-nav{display:none}.qp-present .qp-shell{margin-left:0;width:100%}.qp-present .qp-metric strong{font-size:32px}.qp-present .qp-metric small{font-size:14px}.qp-present .qp-guide{font-size:18px}.qp-present .qp-card-heading{font-size:21px}.qp-present .qp-passport-content{max-height:600px}.qp-present .qp-footnote{font-size:12px}
+.qp-present-only{display:none}.qp-present .qp-present-only{display:flex;background:#eef3fc;border-radius:10px;padding:8px}.qp-present .qp-demo{display:none}.qp-present-only>.grow{flex-basis:55%}.qp-present .qp-shell{gap:10px}.qp-present .admission-hall{max-height:360px;min-height:0}.qp-present .qp-passport-content{max-height:390px}
+.qp-present .qp-config-trigger{display:none}.qp-present .admission-hall{max-height:280px}@media(min-height:900px){.qp-present .admission-hall{max-height:420px}}

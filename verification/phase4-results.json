@@ -1,0 +1,61 @@
+{
+  "reports": {
+    "Normal Admission Morning": "b30c845a-2e10-4333-929a-0eded70fe510",
+    "Arrival Rush": "b3e6ed5d-9021-45e2-8a23-97b512b81db2",
+    "Desk Disruption and Recovery": "42024de1-8206-4d06-89e1-3815051de447",
+    "Single run": "053bf722-bad0-4e83-bb4e-4973f38f410f",
+    "Staffing": "81ade2a9-2026-4654-95f8-52bb0027e25f",
+    "Readiness": "298ed35d-290a-481f-a010-aadf5399e740",
+    "Branch comparison": "ff16f3ae-b6b7-4c88-92fa-ee132c7e3602"
+  },
+  "outcomes": {
+    "Normal Admission Morning": [
+      {
+        "completed": 40,
+        "unfinished": 0,
+        "average_completed_wait": 23.368975025990355,
+        "p90_completed_wait": 35.88078462889062,
+        "makespan": 86.47410125797977
+      },
+      {
+        "completed": 40,
+        "unfinished": 0,
+        "average_completed_wait": 27.550247834566743,
+        "p90_completed_wait": 39.61448942972995,
+        "makespan": 87.22368329895598
+      }
+    ],
+    "Arrival Rush": [
+      {
+        "completed": 50,
+        "unfinished": 0,
+        "average_completed_wait": 35.08594961874158,
+        "p90_completed_wait": 57.74725769992972,
+        "makespan": 109.39821016129959
+      },
+      {
+        "completed": 50,
+        "unfinished": 0,
+        "average_completed_wait": 44.917046464107216,
+        "p90_completed_wait": 65.95988483517004,
+        "makespan": 113.56907870439608
+      }
+    ],
+    "Desk Disruption and Recovery": [
+      {
+        "completed": 40,
+        "unfinished": 0,
+        "average_completed_wait": 24.823746116334288,
+        "p90_completed_wait": 37.83646015078982,
+        "makespan": 88.42977677987895
+      },
+      {
+        "completed": 40,
+        "unfinished": 0,
+        "average_completed_wait": 31.120900346798102,
+        "p90_completed_wait": 49.46007553773214,
+        "makespan": 92.27306662685527
+      }
+    ]
+  }
+}
